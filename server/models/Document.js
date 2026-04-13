@@ -6,6 +6,6 @@ const schema = new mongoose.Schema({
     
 }, {timestamps: true});
 
-const Document = mongoose.model("Document", schema);
+const Document = mongoose.model("Document", schema, "Notes");
 
 export default Document;
